@@ -37,6 +37,6 @@ export default {
 }
 .container {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1.5fr;
 }
 </style>

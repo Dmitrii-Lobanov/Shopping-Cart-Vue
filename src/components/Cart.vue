@@ -5,6 +5,7 @@
     <ul>
       <li v-for="product in products" :key="product.id" class="cart-item">
         {{ product.title }} - {{ product.price }}
+        <button>Удалить</button>
       </li>
     </ul>
     <hr />
